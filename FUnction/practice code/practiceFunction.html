@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+    function number(num){
+      if(num % 2==0){
+        console.log( `${num} is Even Number`);
+      }
+      else{
+        console.log( `${num} is Odd Number`);
+      }
+    }
+    number(15);
+    number(20);
+
+    function number2(num1,num2){
+      if(num1>num2){
+        console.log( `${num1} is larger Number`);
+      }
+      else if(num2>num1){
+        console.log( `${num2} is larger Number`);
+      }
+      else{
+        console.log('Invalid input')
+      }
+    }
+
+    number2(10,10)
+
+
+    function celsius(c){
+      let F=(9/5)*c+32;
+      console.log(`Celsius ${c} to Faranite ${F}`)
+    }
+    celsius(26)
+
+
+  </script>
+</body>
+</html>
